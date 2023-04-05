@@ -4,3 +4,4 @@ function showcolor()
 {
     document.body.style.backgroundColor= "red";
 }
+
