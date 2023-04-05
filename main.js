@@ -19,7 +19,7 @@ function shownumber()
 {
     let num1 = document.getElementById("num-1").value;
     let num2= document.getElementById("num-2").value;
-    document.getElementById("resultado-1").innerText = "num-1" + "num-2";
+    document.getElementById("resultado-1") = "num-1" + "num-2";
     
 
 }
