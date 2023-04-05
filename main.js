@@ -13,7 +13,7 @@ function showname()
     document.getElementById("nome").value = "";
 }
 
-document.getElementById("somar").addEventListener("click",shownumber);
+document.getElementById("somar").addEventListener("click",shownumber1);
 
 function shownumber()
 {
