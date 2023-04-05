@@ -13,12 +13,10 @@ function showname()
     document.getElementById("nome").value = "";
 }
 
-document.getElementById("somar").addEventListener("click",shownumber);
-
 function shownumber()
 {
     let number= document.getElementById("num-1").value="";
     let number= document.getElementById("num-2").value="";
-    let number= document.getElementById("resultado-1").value +"num-1"+"num-2"
+    let number= document.getElementById("resultado-1").value +"num-1"+"num-2" =
 
 }
