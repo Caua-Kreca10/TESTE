@@ -17,9 +17,9 @@ document.getElementById("somar").addEventListener("click",shownumber);
 
 function shownumber()
 {
-    let num1 = document.getElementById("num-1")
-    let num2= document.getElementById("num-2")
-    document.getElementById("resultado-1").innerHTML= parseFloat("num-1") + parseFloat("num-2")
+    let num1 = document.getElementById("num-1").value;
+    let num2= document.getElementById("num-2").value;
+    document.getElementById("resultado-1").innerHTML= parseFloat("num-1") + parseFloat("num-2");
     
 
 }
