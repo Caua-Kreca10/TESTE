@@ -15,8 +15,9 @@ function showname()
 
 function shownumber()
 {
-    let number= document.getElementById("num-1").value="";
-    let number= document.getElementById("num-2").value="";
-    let number= document.getElementById("resultado-1").value +"num-1"+"num-2" =
+    let num1 = document.getElementById("num-1").value="";
+    let num2= document.getElementById("num-2").value="";
+    document.getElementById("resultadop-1").innerText = "num-1" + "num-2";
+    
 
 }
