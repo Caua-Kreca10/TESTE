@@ -13,6 +13,8 @@ function showname()
     document.getElementById("nome").value = "";
 }
 
+document.getElementById("somar").addEventListener("click",shownumber);
+
 function shownumber()
 {
     let num1 = document.getElementById("num-1").value="";
